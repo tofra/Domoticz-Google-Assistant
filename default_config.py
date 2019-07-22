@@ -37,16 +37,16 @@ IMAGE_SPEAKER = ['Speaker']
 DEVICE_CONFIG = {
     '135' : {
         'nicknames' : ['Kitchen Blind One'],
-        'room' : 'Kitchen' ,
+        'room' : ['Kitchen'] ,
         'ack' : True,
         },
     '150' : {
         'nicknames' : ['Dining Room Light'],
-        'room' : 'Dining Room',
+        'room' : ['Dining Room'],
         },
     '180' : {
         'nicknames' : ['Simon Printer'],
-        'room' : 'Simon',
+        'room' : ['Simon'],
         'ack' : False,
         },          
 }
